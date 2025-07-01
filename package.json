@@ -1,0 +1,19 @@
+{
+  "name": "gera-qr-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "Lucas Gabriel",
+  "license": "ISC",
+  "description": "kit de utilidades para e-comerce, incluindo geração de QR Codes",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
